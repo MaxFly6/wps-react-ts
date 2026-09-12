@@ -1,0 +1,55 @@
+{
+	"name": "wps-react",
+	"addonType": "et",
+	"version": "1.0.0",
+	"private": true,
+	"type": "module",
+	"dependencies": {
+		"axios": "^0.19.2",
+		"immutable": "^4.0.0-rc.12",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"react-redux": "^7.2.0",
+		"react-router-dom": "^5.2.0",
+		"react-scripts": "3.4.1",
+		"redux": "^4.0.5"
+	},
+	"scripts": {
+		"dev": "vite --port 3889",
+		"build": "vite build",
+		"preview": "vite preview",
+		"typecheck": "tsc --noEmit",
+		"lint": "eslint . --ext .ts,.tsx,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+		"format": "prettier --write src/"
+	},
+	"eslintConfig": {
+		"extends": "react-app",
+		"globals": {
+			"wps": "readonly"
+		}
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"@types/node": "^22.10.2",
+		"@types/react": "^18.3.18",
+		"@types/react-dom": "^18.3.5",
+		"@types/react-redux": "^7.1.34",
+		"@types/react-router-dom": "^5.3.3",
+		"@vitejs/plugin-react": "^4.3.4",
+		"et-jsapi-declare": "latest",
+		"typescript": "^5.7.2",
+		"vite": "^5.3.1",
+		"wpsjs": "latest"
+	}
+}
