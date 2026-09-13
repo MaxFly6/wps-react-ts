@@ -1,1 +1,2 @@
+从原本的wpsjs模板的react版，升级到使用react18和ts
 使用wpsjs debug进行调试
